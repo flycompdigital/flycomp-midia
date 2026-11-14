@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Capa: 2 pontos da superdotação</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#0B66FF}a:hover{color:#0A4A9E}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 96px; background: linear-gradient(180deg, #EBF5FF 0%, #FFFFFF 60%); color: #111827; font-family: Inter, sans-serif; display: flex; flex-direction: column; justify-content: space-between">
+<div style="display: flex; flex-direction: column; gap: 56px">
+<img src="/_blob/2e28b56e2cbe575270ec788635e6a5d4" alt="FlyComp Digital" style="width: 211px; height: 120px; object-fit: contain; align-self: flex-start">
+<div style="font-size: 26px; font-weight: 600; letter-spacing: 4px; color: {{accent}}">AUTOCONHECIMENTO + IA</div>
+<h1 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 100px; font-weight: 700; line-height: 1.04; letter-spacing: -2px; color: #111827">Fiquei a 2 pontos da linha da superdotação.</h1>
+</div>
+<div style="display: flex; align-items: baseline; gap: 24px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 260px; font-weight: 700; line-height: 1; color: {{accent}}">128</span>
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 96px; font-weight: 500; line-height: 1; color: #6B7280">/ 130</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 64px">
+<p style="margin: 0; font-size: 40px; line-height: 1.35; color: #4B5563">O que um teste de QI me ensinou sobre pontos fracos. E sobre segurança.</p>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 26px; color: #6B7280; border-top: 1px solid #E5E7EB; padding-top: 32px">
+<span><strong style="color: #0A4A9E">FlyComp Digital</strong> · Marcus M. Pontes</span>
+<span style="color: #111827; font-weight: 600">Arraste →</span>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#0B66FF","options":["#0B66FF","#0A4A9E","#2BA3FF"]},"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#0B66FF' };
+}
+}
+</script>
+</body>
+</html>
