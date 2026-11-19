@@ -6,7 +6,7 @@ async def m():
         for f in sorted(glob.glob('luminat21-*.html')):
             pg=await b.new_page(viewport={'width':1600,'height':900},device_scale_factor=2)
             await pg.goto('file:///home/claude/lumina-brand/'+f); await pg.wait_for_timeout(500)
-            transp='escuro' not in f
+            transp=not f.startswith('luminat21-logo-escuro')
             el=await pg.query_selector('#alvo') if transp else await pg.query_selector('body')
             if not transp:
                 bb=await (await pg.query_selector('#alvo')).bounding_box()
