@@ -11,11 +11,9 @@ I={
 }
 def svg(k,size,color): return f'<svg width="{size}" height="{size}" viewBox="0 0 24 24" fill="none" stroke="{color}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">{I[k]}</svg>'
 D=[
-("vizinhanca-segura","users","Programa <span>Vizinhança Segura</span>","Um cinturão digital contra o crime, rua por rua.",["As câmeras que você já tem entram no MWL.camera","Veja as câmeras dos vizinhos num raio de 500 m","Ocorrências direto para a central Vision SOC 24h"]),
+("vizinhanca-segura","users","Programa <span>Vizinhança Segura</span>","Um cinturão digital contra o crime, rua por rua.",["As câmeras que você já tem entram no MWL.camera","Veja as câmeras dos vizinhos num raio de 500 m","Instalação e integração pela FlySeg"]),
 ("odl-camera","cctv","ODL<span>.camera</span>","A segurança da rua num conjunto completo, criado pela FlySeg.",["Totem com visão 360° e versão fachada","Sirene e giroflex integrados","Full HD colorido à noite e 7 dias de gravação"]),
-("vision-soc","monitor","Central <span>Vision SOC</span>","Monitoramento eletrônico 24h, todos os dias.",["Acompanha as ocorrências do MWL.camera","Aciona as autoridades quando é preciso","Avisa quando câmera, gravador ou link caem"]),
-("integradores","handshake","Para <span>integradores</span>","Venda monitoramento 24h com a sua marca.",["Vision SOC white label","Sem montar central própria","Planos e preços em flyseg.vision"]),
-("sobre","shield","Sobre a <span>FlySeg</span>","Segurança colaborativa de verdade.",["Pioneira na integração com o MWL.camera","Criadora do ODL.camera","Central Vision SOC 24h"]),
+("sobre","shield","Sobre a <span>FlySeg</span>","Segurança colaborativa de verdade.",["Pioneira na integração com o MWL.camera","Criadora do ODL.camera","Venda, instalação e locação"]),
 ("contato","chat","Fale com <span>a gente</span>","Atendimento comercial da FlySeg Vision.",["Direct aqui do Instagram","WhatsApp (11) 4283-7330","flyseg.vision"]),
 ]
 CAPA="""<!doctype html><html><head><meta charset="utf-8"><style>*{margin:0}body{width:1080px;height:1920px;background:radial-gradient(70% 45% at 50% 50%,#3a1214 0%,#11161b 70%);display:flex;align-items:center;justify-content:center}

@@ -2,10 +2,10 @@ Uma rua protegida é feita por todos. 🛡️
 
 Com o Programa Vizinhança Segura, as câmeras que você já tem entram no MWL.camera, e cada participante acompanha as câmeras compartilhadas pelos vizinhos num raio de 500 m do seu endereço, não importa quem instalou cada uma.
 
-É um cinturão digital contra o crime: as ocorrências vão para a central Vision SOC, que acompanha 24h e aciona as autoridades, sem alarde na vizinhança.
+É um cinturão digital contra o crime: cada vizinho acompanha as câmeras da rua pelo celular, e a FlySeg cuida da instalação e da integração ao MWL.camera.
 
 A FlySeg foi pioneira na integração com o MWL.camera e criou o ODL.camera.
 
 Quer colocar a sua rua no Vizinhança Segura? Fale com a gente por mensagem.
 
-#VizinhançaSegura #SegurançaColaborativa #MonitoramentoEletrônico #FlySegVision #SãoPaulo
+#VizinhançaSegura #SegurançaColaborativa #CâmerasDeSegurança #FlySegVision #SãoPaulo
