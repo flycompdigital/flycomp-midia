@@ -16,8 +16,8 @@ ol{gap:28px}li{gap:26px;font-size:38px}li b{width:64px;height:64px;font-size:32p
 STORY=CSS_BASE+"""body{width:1080px;height:1920px}.w{left:90px;right:90px;top:250px;bottom:370px;justify-content:center}.logo{width:300px}.eb{font-size:32px}h1{font-size:96px}.s{font-size:44px}
 ol{gap:34px}li{gap:28px;font-size:44px}li b{width:76px;height:76px;font-size:38px}.cta{margin-top:56px;align-self:flex-start;padding:28px 46px;border-radius:20px;background:linear-gradient(90deg,#e31c24,#8b1e22);font-size:42px;font-weight:700}"""
 POSTS={
-"seguranca-colaborativa":("Programa Vizinhança Segura","Um cinturão digital <span>contra o crime.</span>","Segurança colaborativa com o MWL.camera.",["As câmeras que você já tem entram na rede","Veja as câmeras compartilhadas pelos vizinhos num raio de 500 m","Instalação e integração pela FlySeg"]),
-"odl-camera":("ODL.camera","A segurança da rua <span>num conjunto completo.</span>","Totem com visão 360° e versão fachada, criados pela FlySeg.",["Sirene e giroflex integrados","Câmeras Full HD coloridas à noite e 7 dias de gravação","Integrado ao MWL.camera"]),
+"seguranca-colaborativa":("Programa Vizinhança Segura","Um cinturão digital <span>contra o crime.</span>","Segurança colaborativa com o MWL.camera.",["As câmeras que você já tem entram na rede","Veja as câmeras compartilhadas pelos vizinhos num raio de 500 m","Painel de ocorrências para as forças de segurança locais"]),
+"odl-camera":("ODL.camera","A segurança da rua <span>num conjunto completo.</span>","Totem com visão 360° e versão fachada, criados pela FlySeg.",["Sirene e giroflex integrados","Câmeras Full HD coloridas à noite e 7 dias de gravação","Ocorrências no MWL.camera e no painel das forças de segurança"]),
 "vision-soc-integradores":("Para integradores","Monitoramento 24h <span>com a sua marca.</span>","Vision SOC white label, sem montar central.",["Você vende e atende o seu cliente","A central acompanha as ocorrências do MWL.camera 24h","Planos e preços em flyseg.vision"]),
 }
 def body(eb,t,s,itens,css,story):

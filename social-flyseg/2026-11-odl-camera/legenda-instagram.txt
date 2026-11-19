@@ -2,7 +2,7 @@ Segurança da rua num conjunto completo. 👁️
 
 O ODL.camera, criado pela FlySeg, vem sempre com sirene e giroflex integrados, câmeras Full HD que filmam colorido à noite e 7 dias de gravação. São duas versões: o totem, com visão 360°, e a de fachada, com áudio bidirecional. Nobreak opcional.
 
-Integrado ao MWL.camera, sem custo de equipamento: é locação mensal.
+Integrado ao MWL.camera: o botão de emergência gera a ocorrência na plataforma, visível também no painel das forças de segurança da região que aderiram ao MWL.camera. Sem custo de equipamento: é locação mensal.
 
 Fale com a gente pelo direct.
 

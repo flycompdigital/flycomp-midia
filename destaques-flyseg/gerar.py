@@ -11,8 +11,8 @@ I={
 }
 def svg(k,size,color): return f'<svg width="{size}" height="{size}" viewBox="0 0 24 24" fill="none" stroke="{color}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">{I[k]}</svg>'
 D=[
-("vizinhanca-segura","users","Programa <span>Vizinhança Segura</span>","Um cinturão digital contra o crime, rua por rua.",["As câmeras que você já tem entram no MWL.camera","Veja as câmeras dos vizinhos num raio de 500 m","Instalação e integração pela FlySeg"]),
-("odl-camera","cctv","ODL<span>.camera</span>","A segurança da rua num conjunto completo, criado pela FlySeg.",["Totem com visão 360° e versão fachada","Sirene e giroflex integrados","Full HD colorido à noite e 7 dias de gravação"]),
+("vizinhanca-segura","users","Programa <span>Vizinhança Segura</span>","Um cinturão digital contra o crime, rua por rua.",["As câmeras que você já tem entram no MWL.camera","Veja as câmeras dos vizinhos num raio de 500 m","Painel para as forças de segurança locais"]),
+("odl-camera","cctv","ODL<span>.camera</span>","A segurança da rua num conjunto completo, criado pela FlySeg.",["Totem com visão 360° e versão fachada","Sirene, giroflex e botão de emergência","Ocorrências no painel das forças de segurança"]),
 ("sobre","shield","Sobre a <span>FlySeg</span>","Segurança colaborativa de verdade.",["Pioneira na integração com o MWL.camera","Criadora do ODL.camera","Venda, instalação e locação"]),
 ("contato","chat","Fale com <span>a gente</span>","Atendimento comercial da FlySeg Vision.",["Direct aqui do Instagram","WhatsApp (11) 4283-7330","flyseg.vision"]),
 ]
@@ -28,7 +28,7 @@ h1{font-family:'Inter Display';font-weight:800;font-size:92px;line-height:1.04;l
 p{font-size:44px;line-height:1.4;color:#c5ccd3;margin-bottom:44px}
 ul{list-style:none;display:flex;flex-direction:column;gap:24px}
 li{font-size:40px;line-height:1.3;padding:26px 32px;background:rgba(233,194,96,.07);border:2px solid rgba(233,194,96,.35);border-left:10px solid #e31c24;border-radius:22px;color:#eef1f4}
-.cta{margin-top:auto;font-size:40px;font-weight:700;color:#e9c260}
+.cta{margin-top:auto;padding-top:40px;font-size:40px;font-weight:700;color:#e9c260}
 </style></head><body><div class="bar"></div><div class="w"><img class="logo" src="{LOGO}"><div class="ic">{ICON}</div><h1>{T}</h1><p>{P}</p><ul>{LI}</ul><div class="cta">{CTA}</div></div></body></html>"""
 async def main():
     async with async_playwright() as p:
