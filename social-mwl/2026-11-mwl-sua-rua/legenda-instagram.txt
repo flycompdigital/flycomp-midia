@@ -4,9 +4,9 @@ Com o MWL.camera, as câmeras que você e os seus vizinhos já têm entram na pl
 
 Quando acontece algo, a ocorrência chega com a gravação anexada. E as polícias e a Guarda Civil da região que aderirem veem as ocorrências no painel delas, sem custo.
 
-O MWL.camera é uma plataforma de tecnologia e não substitui o 190.
+Também há integração com programas de segurança pública, como o Muralha Paulista, do Governo do Estado de São Paulo, e o Smart Sampa, da Prefeitura de São Paulo, com possibilidade de integração com programas de outras cidades e estados.
 
-E tem mais: integração com programas de segurança pública, como o Muralha Paulista, do Governo do Estado de São Paulo, e o Smart Sampa, da Prefeitura de São Paulo, com possibilidade de integração com programas de outras cidades e estados.
+O MWL.camera é uma plataforma de tecnologia e não substitui o 190.
 
 Quer a sua rua na rede? Fale com a gente pelo direct.
 
