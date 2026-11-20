@@ -4,7 +4,7 @@ B=pathlib.Path(__file__).parent
 CSS="""@font-face{font-family:Courgette;src:url(Courgette.woff2)}*{margin:0;padding:0;box-sizing:border-box}
 body{width:%dpx;height:%dpx;font-family:Inter,sans-serif;color:#17332f;background:#FBF6EE;position:relative;overflow:hidden}
 .w{position:absolute;inset:%s;display:flex;flex-direction:column}.ct{flex:1;display:flex;flex-direction:column;justify-content:center}
-.logo{height:86px;align-self:flex-start}
+.logo{height:86px;align-self:flex-start;margin-bottom:28px;flex-shrink:0}
 h1{font-family:Courgette;font-size:92px;line-height:1.1;color:#0F6A5E;font-weight:400}h1 span,h2 span{color:#C58712}
 h2{font-family:Courgette;font-size:74px;line-height:1.12;color:#0F6A5E;font-weight:400}
 p.t{font-size:38px;line-height:1.45;color:#3f5a55;margin-top:28px}
@@ -27,7 +27,7 @@ S=[
 '<h2>Converse com a <span>Lumina</span></h2><div class="cta"><img src="qr.svg"><div><b>luminat21.org</b><span>Abra no celular e toque em instalar para ter a Lumina na tela inicial.</span></div></div><p class="t" style="font-size:32px">A luz do amor <span class="heart">♥</span> a força da inclusão.</p>'+AV,
 ]
 ST='<h1 style="font-size:84px">Tem uma dúvida sobre a síndrome de Down? <span>Pergunte à Lumina.</span></h1><img class="foto" src="familias.jpg"><div class="cta"><img src="qr.svg"><div><b>luminat21.org</b><span>Gratuita, a qualquer hora.</span></div></div>'
-FLY='<h1 style="font-size:62px">Tem uma dúvida sobre a síndrome de Down? <span>Pergunte à Lumina.</span></h1><img class="foto" src="familias.jpg" style="margin-top:26px"><p class="t" style="font-size:27px;margin-top:22px">A Lumina é a assistente gratuita das famílias T21: responde a qualquer hora, em linguagem simples, com um guia para cada fase da vida. E convida você para o grupo de famílias T21 da Zona Leste de São Paulo.</p><div class="cta" style="margin-top:28px;padding:28px 32px"><img src="qr.svg" style="width:170px"><div><b style="font-size:46px">luminat21.org</b><span style="font-size:24px">Aponte a câmera, converse com a Lumina e entre no grupo.</span></div></div><p class="av" style="font-size:18px">A Lumina orienta e encaminha, mas não substitui médicos e terapeutas.</p>'
+FLY='<h1 style="font-size:56px">Tem uma dúvida sobre a síndrome de Down? <span>Pergunte à Lumina.</span></h1><img class="foto" src="familias.jpg" style="margin-top:22px"><p class="t" style="font-size:27px;margin-top:22px">A Lumina é a assistente gratuita das famílias T21: responde a qualquer hora, em linguagem simples, com um guia para cada fase da vida. E convida você para o grupo de famílias T21 da Zona Leste de São Paulo.</p><div class="cta" style="margin-top:28px;padding:28px 32px"><img src="qr.svg" style="width:170px"><div><b style="font-size:46px">luminat21.org</b><span style="font-size:24px">Aponte a câmera, converse com a Lumina e entre no grupo.</span></div></div><p class="av" style="font-size:18px">A Lumina orienta e encaminha, mas não substitui médicos e terapeutas.</p>'
 async def main():
     async with async_playwright() as p:
         b=await p.chromium.launch(executable_path="/usr/bin/google-chrome")
