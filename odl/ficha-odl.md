@@ -8,11 +8,11 @@ Base de todo o material do ODL: site, folders, posts e kit do integrador. Aprova
 - Chamada: **"Pare de apenas gravar. Comece a proteger!"**
 
 ## Modelos
-- **Totem:** poste com visão de 360°.
-- **Box:** modelo de fachada com visão de 180°.
+- **Totem:** poste com quatro câmeras e visão de 360°. A cor amarela vem do Fusca 77 amarelo Java do pai do MMP.
+- **Box:** modelo de fachada com duas câmeras e visão de 180°.
 
 ## Equipamento
-- Quatro câmeras Full HD que filmam colorido à noite.
+- Câmeras Full HD que filmam colorido à noite (quatro no Totem, duas no Box).
 - Gravação de 7 dias.
 - Sirene de cerca de 120 dB e giroflex sempre integrados.
 - Luz LED que acende sozinha à noite.
@@ -54,7 +54,7 @@ Base de todo o material do ODL: site, folders, posts e kit do integrador. Aprova
 
 ## Homenagem
 - ODL = Olho De Lince, homenagem ao pai do MMP, Marco Antônio Munis Pontes.
-- Vai num bloco com foto e texto, que o MMP ainda vai enviar.
+- Bloco aprovado em 20/11/2026, com a foto dele, a foto do Fusca 77 amarelo Java (inspiração da cor do totem) e a assinatura "Seu Filhão, Marcus M. Pontes".
 
 ## O que fica fora do material
 - **Central e monitoramento:** a FlySeg está sem CNAE de monitoramento, então o material não fala em central nem em "avisa nossa central".
