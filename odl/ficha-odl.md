@@ -10,6 +10,8 @@ Base de todo o material do ODL: site, folders, posts e kit do integrador. Aprova
 ## Modelos
 - **Totem:** poste com quatro câmeras e visão de 360°. A cor amarela vem do Fusca 77 amarelo Java do pai do MMP.
 - **Box:** modelo de fachada com duas câmeras e visão de 180°.
+- **Fisheye:** uma câmera olho de peixe no meio da fachada, na parte superior do portão. Instalação simplificada: um cabo de rede vindo do roteador e tomada comum 127V. Não tem sirene, giroflex nem LED (não tem gateway nem módulo relé SR-201). Tem áudio. Bateria só pela versão que acompanha nobreak.
+- Sirene, giroflex, LED e a bateria de 1h20 valem para o Totem e o Box.
 
 ## Equipamento
 - Câmeras Full HD que filmam colorido à noite (quatro no Totem, duas no Box).
