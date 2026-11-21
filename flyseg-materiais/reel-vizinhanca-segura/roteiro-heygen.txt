@@ -14,8 +14,8 @@ CENA 2 — O PROGRAMA | 4–9s
 NARRAÇÃO: O Vizinhança Segura conecta câmeras de moradores, comércios e condomínios pela plataforma MWL.
 PRONÚNCIA DA NARRAÇÃO: MWL deve ser pronunciado como "ême dáblio éle".
 GRAFIA DAS LEGENDAS: O Vizinhança Segura conecta câmeras de moradores, comércios e condomínios pela plataforma MWL.
-TEXTOS NA TELA: Moradores / Comércios / Condomínios / Plataforma MWL.camera
-VISUAL: Apresentador em plano médio, com o rosto livre. Overlay lateral com badges que aparecem em sequência: Moradores, Comércios e Condomínios. Na base do card, exibir "Plataforma MWL.camera".
+TEXTOS NA TELA: Moradores / Comércios / Condomínios / Plataforma MWL
+VISUAL: Apresentador em plano médio, com o rosto livre. Overlay lateral com badges que aparecem em sequência: Moradores, Comércios e Condomínios. Na base do card, exibir "Plataforma MWL".
 
 CENA 3 — COMO FUNCIONA | 9–13s
 NARRAÇÃO: Reúna os vizinhos, chame a FlySeg e conecte sua rua.
