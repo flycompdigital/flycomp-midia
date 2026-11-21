@@ -1,0 +1,62 @@
+ROTEIRO — VÍDEO INSTITUCIONAL MWL.camera | 2 MINUTOS
+
+Formato: horizontal 16:9 (página Apresentação do mwl.seg.br) e vertical 9:16 (redes)
+Duração: aproximadamente 2 minutos
+Idioma: português do Brasil (pt-BR)
+Apresentador: avatar já criado (blazer azul), voz em português do Brasil, tom calmo e próximo, sem tom de medo
+Estilo: institucional, limpo, motion graphics, alternando apresentador (A-roll) e telas ilustradas (B-roll)
+
+ASSETS ANEXADOS (usar exatamente estes arquivos, sem redesenhar):
+- mwl-logo-transparente.png: logo da plataforma MWL.
+- totem-olho-de-lince-logo.png: o lince em neon, para o hardware.
+- casa.svg, padaria.svg, condominio.svg, mercadinho.svg: cenas ilustradas para simular as câmeras (estilo câmera de segurança, com data e hora no canto e selo "AO VIVO").
+- QR code do mwl.camera (o mesmo do folder): mostrar inteiro, reto, com borda branca, parado por pelo menos 3 segundos.
+
+GLOSSÁRIO DE PRONÚNCIA (Brand Glossary):
+MWL = ême dáblio éle
+FlySeg = Flai Ség
+IMPORTANTE: na fala, usar sempre "plataforma MWL" e "Totem Olho de Lince" (nunca "MWL.camera" nem "ODL.camera"). Na tela e nas legendas, manter MWL.camera, ODL.camera e mwl.camera.
+
+CENA 1 — O PROBLEMA | 0:00–0:12
+NARRAÇÃO: Na sua rua já tem câmera. Na casa do vizinho, na padaria, no condomínio. Mas cada uma olha só para o próprio portão.
+TEXTOS NA TELA: Cada câmera, sozinha
+VISUAL: As quatro cenas ilustradas em quadros separados, em preto e branco e apagadas, com o selo "SOZINHA".
+
+CENA 2 — A SOLUÇÃO | 0:12–0:25
+NARRAÇÃO: A plataforma MWL junta essas câmeras numa rede só. Cada vizinho acompanha as câmeras compartilhadas num raio de 500 metros, pelo celular.
+TEXTOS NA TELA: Numa rede só / Raio de 500 m
+VISUAL: Os quatro quadros acendem (coloridos, selo "AO VIVO") e se ligam por linhas; depois, um círculo de 500 m num mapa esquemático. Logo da plataforma MWL.
+
+CENA 3 — COMO FUNCIONA | 0:25–0:45
+NARRAÇÃO: Aconteceu alguma coisa? A ocorrência chega com a gravação anexada para quem está perto. E quem decide o que compartilha é sempre o dono da câmera.
+TEXTOS NA TELA: Ocorrência com gravação anexada / O dono da câmera decide
+VISUAL: Apresentador em plano médio. Overlay de um cartão "Ocorrência registrada" com a cena casa.svg e o selo "GRAVAÇÃO".
+
+CENA 4 — SISTEMA E HARDWARE | 0:45–1:05
+NARRAÇÃO: São duas plataformas: a plataforma MWL é o sistema, e o Totem Olho de Lince é o hardware. São três modelos: o Totem, o Box e o Fisheye. No Totem e no Box, o botão de emergência no app aciona sirene e giroflex na hora.
+TEXTOS NA TELA: Sistema: plataforma MWL / Hardware: Totem Olho de Lince / Totem · Box · Fisheye
+VISUAL: Dois cartões lado a lado: logo MWL ("Sistema") e o lince em neon ("Hardware"). NÃO mostrar fotos de postes nem de equipamentos: as fotos reais ainda não existem.
+
+CENA 5 — FORÇAS DE SEGURANÇA | 1:05–1:22
+NARRAÇÃO: As polícias e a Guarda Civil da região que aderirem veem essas ocorrências no painel delas, sem custo. Cada comando vê só a sua área.
+TEXTOS NA TELA: Painel das forças de segurança · sem custo
+VISUAL: Tela de painel com mapa esquemático de uma área fictícia. Sem fardas, viaturas ou brasões.
+SELO SEPARADO (não narrar, visualmente distinto do painel): "Possibilidade de integração com Muralha Paulista e Smart Sampa".
+
+CENA 6 — INTEGRADORES | 1:22–1:42
+NARRAÇÃO: Quem instala é um integrador da sua região. E, para ele, as duas plataformas são white label: o sistema e o hardware saem com a marca da empresa dele.
+TEXTOS NA TELA: White label: com a sua marca
+VISUAL: Apresentador em primeiro plano. Overlay de um adesivo genérico "SUA MARCA" sobre o lince.
+
+CENA 7 — CONVITE | 1:42–2:00
+NARRAÇÃO: Plataforma MWL. A sua rua vigiada por quem mora nela. Encontre um integrador pelo QR code na tela.
+TEXTOS NA TELA: A sua rua vigiada por quem mora nela / mwl.camera / Em emergência, ligue 190.
+VISUAL: Logo MWL, QR code literal e mwl.camera em destaque.
+
+O QUE NÃO DIZER NEM MOSTRAR:
+- "Monitoramento", "central 24h" ou promessa de vigilância.
+- Que a polícia vai atender (só que as forças que aderirem veem as ocorrências).
+- Botão de pânico pessoal e dispositivo de SOS (roadmap).
+- Fardas, viaturas ou brasões; imagens reais de clientes ou ocorrências.
+
+PUBLICAÇÃO NO INSTAGRAM: ativar "Rótulo de IA" nas opções avançadas, pois o apresentador é um avatar realista gerado por IA.
