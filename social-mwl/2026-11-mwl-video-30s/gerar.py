@@ -12,9 +12,11 @@ h1{font-family:'Inter Display',Inter;font-weight:900;font-size:112px;line-height
 h1 span{color:#8fb4ff}
 p{font-size:48px;line-height:1.42;color:#cbd5e1;margin-top:28px}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:60px;position:relative}
-.cam{height:340px;border-radius:26px;background:#111a2e;border:2px solid #24314f;position:relative;padding:20px;font-size:32px;color:#cbd5e1}
-.cam:after{content:"AO VIVO";position:absolute;right:16px;top:16px;background:#dc2626;color:#fff;font-size:20px;font-weight:800;padding:6px 12px;border-radius:8px}
-.cam.off{opacity:.45}.cam.off:after{content:"SOZINHA";background:#334155}
+.cam{height:340px;border-radius:26px;background:#111a2e center/cover no-repeat;border:2px solid #24314f;position:relative;padding:20px;font-size:30px;font-weight:700;color:#fff;overflow:hidden;filter:saturate(.7) contrast(1.05)}
+.cam:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.55),transparent 35%,transparent 70%,rgba(0,0,0,.55)),repeating-linear-gradient(0deg,rgba(255,255,255,.04) 0 2px,transparent 2px 4px);pointer-events:none}
+.cam span{position:relative;z-index:2}.cam em{position:absolute;left:18px;bottom:14px;font-style:normal;font-family:monospace;font-size:22px;color:#e5e7eb;z-index:2}
+.cam:after{content:"● AO VIVO";position:absolute;right:16px;top:16px;z-index:3;background:#dc2626;color:#fff;font-size:20px;font-weight:800;padding:6px 12px;border-radius:8px}
+.cam.off{filter:grayscale(1) brightness(.55)}.cam.gr:after{content:"● GRAVAÇÃO";background:#b45309}.cam.off:after{content:"SOZINHA";background:#334155}
 svg.lig{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
 .raio{width:600px;height:600px;flex-shrink:0;border-radius:50%;border:4px dashed #60a5fa;margin:60px auto 0;position:relative;background:radial-gradient(circle,rgba(59,130,246,.18),transparent 70%)}
 .raio i{position:absolute;width:44px;height:44px;border-radius:50%;background:#60a5fa;box-shadow:0 0 30px #60a5fa}
@@ -41,12 +43,12 @@ def tela(corpo, marca=True, extra=""):
     m = '<div class="marca"><img src="mwl-logo.png">MWL.camera</div>' if marca else ""
     return f'<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><style>{CSS}</style></head><body>{m}<div class="w {extra}">{corpo}</div></body></html>'
 
-CAMS = ["Casa 12", "Padaria", "Condomínio", "Mercadinho"]
+CAMS = [("Casa 12", "casa", "18:42:07"), ("Padaria", "padaria", "18:42:07"), ("Condomínio", "condominio", "18:42:08"), ("Mercadinho", "mercadinho", "18:42:08")]
 def grade(ligada):
-    cams = "".join(f'<div class="cam{"" if ligada else " off"}">{c}</div>' for c in CAMS)
-    linhas = ('<svg class="lig" viewBox="0 0 900 528" preserveAspectRatio="none"><g stroke="#60a5fa" stroke-width="6" stroke-dasharray="14 10">'
-              '<line x1="225" y1="125" x2="675" y2="125"/><line x1="225" y1="403" x2="675" y2="403"/><line x1="225" y1="125" x2="225" y2="403"/>'
-              '<line x1="675" y1="125" x2="675" y2="403"/><line x1="225" y1="125" x2="675" y2="403"/></g></svg>') if ligada else ""
+    cams = "".join(f'<div class="cam{"" if ligada else " off"}" style="background-image:url(cams/{f}.svg)"><span>{c}</span><em>21/11/2026 {h}</em></div>' for c, f, h in CAMS)
+    linhas = ('<svg class="lig" viewBox="0 0 900 708" preserveAspectRatio="none"><g stroke="#60a5fa" stroke-width="7" stroke-dasharray="16 10" opacity=".9">'
+              '<line x1="218" y1="170" x2="682" y2="170"/><line x1="218" y1="538" x2="682" y2="538"/><line x1="218" y1="170" x2="218" y2="538"/>'
+              '<line x1="682" y1="170" x2="682" y2="538"/></g><g fill="#60a5fa"><circle cx="218" cy="170" r="14"/><circle cx="682" cy="170" r="14"/><circle cx="218" cy="538" r="14"/><circle cx="682" cy="538" r="14"/></g></svg>') if ligada else ""
     return f'<div class="grid">{cams}{linhas}</div>'
 
 TELAS = [
@@ -58,7 +60,7 @@ TELAS = [
              '<div class="pl"><img src="mwl-logo.png"><div><small>Sistema</small><b>Plataforma MWL</b></div></div>'
              '<div class="pl"><img src="lince.png" style="filter:drop-shadow(0 0 14px rgba(240,149,74,.5))"><div><small>Hardware</small><b>Totem Olho de Lince</b></div></div></div>')),
  ("t4", tela('<div class="eb">Na ocorrência</div><h1>A gravação chega <span>junto.</span></h1>'
-             '<div class="oc"><b>● Ocorrência registrada</b>Com local, hora e a gravação anexada, para quem está perto.</div>'
+             '<div class="oc"><b>● Ocorrência registrada</b><div class="cam gr" style="background-image:url(cams/casa.svg);height:300px;margin:18px 0"><span>Casa 12 · gravação anexada</span><em>21/11/2026 18:42:07</em></div>Com local, hora e a gravação, para quem está perto.</div>'
              '<div class="painel"><b>Painel das forças de segurança</b>As polícias e a Guarda Civil da região que aderirem veem as ocorrências no painel delas, sem custo.</div>')),
  ("t5", tela('<img class="logo" src="mwl-logo.png" style="align-self:center"><h1 style="text-align:center;font-size:88px">A sua rua vigiada <span>por quem mora nela.</span></h1>'
              '<img class="qr" src="qr.svg"><div class="url">mwl.camera</div><p style="font-size:42px">Encontre um integrador na sua região.</p><p style="font-size:34px;color:#94a3b8;margin-top:22px">Em emergência, ligue 190.</p>', marca=False, extra="fim")
