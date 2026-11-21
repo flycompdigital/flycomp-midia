@@ -10,7 +10,7 @@ ASSETS ANEXADOS (usar exatamente estes arquivos, sem redesenhar):
 - qrcode-vizinhanca-segura.png: QR code do folder (abre o Instagram @flysegvision). Mostrar inteiro, reto, com a borda branca ao redor, em tamanho grande e parado por pelo menos 3 segundos. Não recortar, não distorcer, não aplicar filtro, desfoque, transparência ou animação sobre ele.
 - placa-vizinhanca-segura.jpg: foto real da placa. Não redesenhar nem alterar textos; pode aplicar aproximação suave.
 - mwl-logo-transparente.png: logo da plataforma MWL, fundo transparente. Usar na cena 2, junto do selo "Plataforma MWL".
-- totem-olho-de-lince-logo.png e totem-olho-de-lince-postes.jpg: usar na cena 5, quando a narração fala do totem.
+- totem-olho-de-lince-logo.png: usar na cena 5, quando a narração fala do totem.
 
 CENA 1 — ABERTURA | 0–4s
 NARRAÇÃO: Um cinturão digital contra o crime, na sua rua.
@@ -43,7 +43,7 @@ CENA 5 — TOTEM E EVIDÊNCIAS | 19–25s
 NARRAÇÃO: A rua também pode receber o Totem Olho de Lince e facilitar o acesso a evidências em ocorrências.
 GRAFIA DAS LEGENDAS: A rua também pode receber o Totem Olho de Lince e facilitar o acesso a evidências em ocorrências.
 TEXTOS NA TELA: Totem Olho de Lince / Totem e Box / Imagens gravadas
-VISUAL: Usar o arquivo totem-olho-de-lince-logo.png (o lince em neon laranja e azul) sobre fundo escuro, com brilho suave; opcionalmente, intercalar com totem-olho-de-lince-postes.jpg (os postes amarelos do totem). NÃO usar a foto da placa nesta cena: a placa aparece só no encerramento. Adicionar as etiquetas "Totem Olho de Lince", "Totem e Box" e "Imagens gravadas".
+VISUAL: Usar o arquivo totem-olho-de-lince-logo.png (o lince em neon laranja e azul) sobre fundo escuro, com brilho suave. NÃO usar a foto da placa nesta cena: a placa aparece só no encerramento. Adicionar as etiquetas "Totem Olho de Lince", "Totem e Box" e "Imagens gravadas".
 
 CENA 6 — ENCERRAMENTO | 25–31s
 NARRAÇÃO: Leve o Vizinhança Segura para sua rua. Fale com a FlySeg Vision pelo WhatsApp.
