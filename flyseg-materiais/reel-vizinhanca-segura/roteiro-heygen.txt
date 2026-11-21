@@ -1,0 +1,54 @@
+ROTEIRO REVISADO — VIZINHANÇA SEGURA | FLYSEG VISION
+
+Formato: vídeo vertical 9:16
+Duração: aproximadamente 31 segundos
+Idioma: português do Brasil (pt-BR)
+Estilo: minimalista, limpo, institucional, com motion graphics, A-roll do apresentador e B-roll com os assets reais do folder.
+
+CENA 1 — ABERTURA | 0–4s
+NARRAÇÃO: Um cinturão digital contra o crime, na sua rua.
+TEXTOS NA TELA: VIZINHANÇA SEGURA / Um cinturão digital contra o crime
+VISUAL: Motion graphics verticais com uma malha de pontos e linhas conectando casas e câmeras, simbolizando uma rede de segurança colaborativa. Revelar o título "VIZINHANÇA SEGURA" e, abaixo, o mote "Um cinturão digital contra o crime". Inserir o logo real da FlySeg Vision sem redesenhar.
+
+CENA 2 — O PROGRAMA | 4–9s
+NARRAÇÃO: O Vizinhança Segura conecta câmeras de moradores, comércios e condomínios pela MWL.camera.
+PRONÚNCIA DA NARRAÇÃO: FlySeg deve ser pronunciado como "Flai Ség". MWL.camera deve ser pronunciado como "ême dáblio éle ponto câmera".
+GRAFIA DAS LEGENDAS: O Vizinhança Segura conecta câmeras de moradores, comércios e condomínios pela MWL.camera.
+TEXTOS NA TELA: Moradores / Comércios / Condomínios / Plataforma MWL.camera
+VISUAL: Apresentador em plano médio, com o rosto livre. Overlay lateral com badges que aparecem em sequência: Moradores, Comércios e Condomínios. Na base do card, exibir "Plataforma MWL.camera".
+
+CENA 3 — COMO FUNCIONA | 9–13s
+NARRAÇÃO: Reúna os vizinhos, chame a FlySeg e conecte sua rua.
+PRONÚNCIA DA NARRAÇÃO: FlySeg deve ser pronunciado como "Flai Ség".
+GRAFIA DAS LEGENDAS: Reúna os vizinhos, chame a FlySeg e conecte sua rua.
+TEXTOS NA TELA:
+1. Reúna os vizinhos
+2. Chame a FlySeg
+3. Conecte sua rua
+VISUAL: Motion graphic vertical com footage discreto de vizinhos conversando e um fluxo de três etapas conectado por uma linha de pulso. Cada etapa acende conforme é mencionada; no terceiro passo, expandir ondas de conexão em um mapa esquemático.
+
+CENA 4 — BENEFÍCIOS E INTEGRAÇÃO | 13–19s
+NARRAÇÃO: Você acompanha câmeras compartilhadas, ao vivo e gravadas, num raio de 500 metros.
+TEXTOS NA TELA: Raio de 500 m / Ao Vivo / Com Gravação / Possibilidade de integração com Muralha Paulista e Smart Sampa
+VISUAL: Apresentador em primeiro plano, com overlay de mini-mapa e os destaques "Raio de 500 m", "Ao Vivo" e "Com Gravação". Adicionar um selo separado, visualmente distinto do painel das forças de segurança, com o texto "Possibilidade de integração com Muralha Paulista e Smart Sampa". Não narrar esse selo e não cobrir o rosto do apresentador.
+
+CENA 5 — TOTEM E EVIDÊNCIAS | 19–25s
+NARRAÇÃO: A rua também pode receber o totem ODL.camera e facilitar o acesso a evidências em ocorrências.
+PRONÚNCIA DA NARRAÇÃO: ODL.camera deve ser pronunciado como "ó dê éle ponto câmera".
+GRAFIA DAS LEGENDAS: A rua também pode receber o totem ODL.camera e facilitar o acesso a evidências em ocorrências.
+TEXTOS NA TELA: Totem ODL.camera / Totem e Box / Imagens gravadas
+VISUAL: Usar literalmente a foto real da placa Vizinhança Segura, com contexto discreto de câmera de rua e aproximação suave. Adicionar as etiquetas "Totem ODL.camera", "Totem e Box" e "Imagens gravadas". Não usar "Evidências Gravadas" e não redesenhar a placa.
+
+CENA 6 — ENCERRAMENTO | 25–31s
+NARRAÇÃO: Leve o Vizinhança Segura para sua rua. Fale com a FlySeg Vision pelo WhatsApp.
+TEXTOS NA TELA: VIZINHANÇA SEGURA / Escaneie para Conectar / @flysegvision / (11) 4283-7330 / Leve o programa para sua rua
+VISUAL: Motion graphic final em layout vertical institucional, com logo real da FlySeg Vision, foto real da placa, QR code literal extraído do folder e barra inferior com Instagram e WhatsApp.
+
+PRONÚNCIAS PARA CONFIGURAR NO GLOSSÁRIO:
+FlySeg = Flai Ség
+MWL.camera = ême dáblio éle ponto câmera
+ODL.camera = ó dê éle ponto câmera
+
+IMPORTANTE: Manter nas legendas a grafia correta: FlySeg, MWL.camera e ODL.camera.
+
+PUBLICAÇÃO NO INSTAGRAM: Ao publicar, ativar manualmente "Rótulo de IA" nas opções avançadas, pois o apresentador é um avatar realista gerado por inteligência artificial.
