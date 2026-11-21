@@ -1,0 +1,118 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><title>Olho de Lince — FlySeg Vision</title>
+<style>
+@page{size:A4;margin:0}*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:210mm}body{font-family:Inter,sans-serif;color:#111;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.pg{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;background:#fff}
+.pg:last-child{page-break-after:auto}
+/* capa */
+.top{background:#07090c;color:#fff;padding:9mm 14mm 10mm;position:relative;height:106mm;overflow:hidden}
+.top:before{content:"";position:absolute;left:-30mm;top:-40mm;width:120mm;height:120mm;border-radius:50%;background:radial-gradient(circle,rgba(240,149,74,.28),transparent 65%)}
+.top:after{content:"";position:absolute;right:-30mm;top:-20mm;width:120mm;height:120mm;border-radius:50%;background:radial-gradient(circle,rgba(112,226,234,.22),transparent 65%)}
+.marca{display:flex;align-items:center;justify-content:space-between;position:relative;z-index:2}.marca img{height:13mm}.marca span{font-size:8pt;font-weight:800;letter-spacing:1.6px;color:#70e2ea;text-transform:uppercase}
+.hero{position:relative;z-index:2;display:flex;gap:4mm;align-items:center;margin-top:5mm}
+.hero .tx{flex:1}
+.eb{font-size:9pt;font-weight:800;letter-spacing:2px;color:#F2C230;text-transform:uppercase}
+h1{font-family:'Inter Display',Inter;font-weight:900;font-size:31pt;line-height:1.02;margin-top:2mm;letter-spacing:-.4px}
+h1 .o{color:#f0954a}h1 .c{color:#70e2ea}
+.sub{margin-top:4mm;font-size:10.5pt;line-height:1.5;color:#c9d1d9;max-width:105mm}
+.chamada{margin-top:4mm;display:inline-block;background:#F2C230;color:#111;font-weight:900;font-size:10pt;padding:2mm 4mm;border-radius:2mm}
+.hero img{width:50mm;filter:drop-shadow(0 0 3mm rgba(240,149,74,.35))}
+.body{padding:5mm 14mm 0}
+h2{font-family:'Inter Display',Inter;font-size:12.5pt;font-weight:900;text-transform:uppercase;letter-spacing:.3px;margin:3.4mm 0 2.2mm}h2 b{color:#B9252B}
+.mods{display:grid;grid-template-columns:1fr 1fr 1fr;gap:3mm}
+.m{border-radius:3.5mm;padding:3.5mm;background:#111;color:#fff;border-top:1.4mm solid #F2C230}
+.m .ang{font-size:20pt;font-weight:900;color:#F2C230;line-height:1}.m h3{font-size:11pt;margin:1.5mm 0 1mm}.m p{font-size:8.5pt;color:#d4d4d4;line-height:1.4}
+.m.fish{border-top-color:#70e2ea}.m.fish .ang{color:#70e2ea;font-size:14pt;padding-top:1.5mm;padding-bottom:1.6mm}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:2.6mm}
+.r{display:flex;gap:2.6mm;border:1.2px solid #e5e5e5;border-left:1.4mm solid #B9252B;border-radius:3mm;padding:2.6mm 3mm}
+.r i{font-style:normal;font-size:13pt;line-height:1.1}.r b{font-size:9.6pt;display:block}.r span{font-size:8.4pt;color:#555;line-height:1.38}
+.nota{margin-top:2mm;font-size:7.8pt;color:#666}
+.emg{display:flex;gap:4mm;margin-top:1mm}
+.steps{flex:1.25;display:grid;gap:2mm}
+.st{display:flex;gap:2.6mm;align-items:flex-start;font-size:9pt;line-height:1.4}.st b{flex:none;width:6.5mm;height:6.5mm;border-radius:50%;background:#B9252B;color:#fff;font-size:8.5pt;display:flex;align-items:center;justify-content:center}
+.forca{flex:1;background:#f6f6f4;border-radius:3mm;padding:3mm 4mm;font-size:8.6pt;line-height:1.45;color:#333;border-left:1.4mm solid #70e2ea}.forca b{display:block;font-size:9.6pt;color:#111;margin-bottom:1mm}
+.foot{position:absolute;left:14mm;right:14mm;bottom:6mm;font-size:7pt;color:#777;display:flex;justify-content:space-between;border-top:1px solid #e5e5e5;padding-top:2mm}
+/* pg2 */
+.bar{background:#07090c;color:#fff;padding:7mm 14mm 6mm;display:flex;justify-content:space-between;align-items:center}
+.bar img{height:11mm}.bar h2{color:#fff;margin:0;font-size:14pt}.bar h2 b{color:#F2C230}
+.psp{margin-top:3mm;border-radius:3mm;padding:3mm 4mm;background:#111;color:#fff;border-left:1.4mm solid #F2C230}.psp b{display:block;font-size:9.6pt;color:#F2C230;margin-bottom:.8mm}.psp span{font-size:8.5pt;color:#d4d4d4;line-height:1.4}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:3mm}
+.bx{border-radius:3mm;padding:3mm 4mm;border:1.2px solid #e5e5e5}.bx b{display:block;font-size:9.8pt;margin-bottom:1mm}.bx span{font-size:8.5pt;color:#555;line-height:1.42}.bx small{display:block;margin-top:1.2mm;font-size:7.4pt;color:#888}
+.bx.v{border-left:1.4mm solid #2f9e44}.bx.c{border-left:1.4mm solid #70e2ea}
+.hom{margin-top:4mm;display:flex;gap:4mm;background:#fdf6dd;border-radius:3.5mm;padding:3.5mm;align-items:center}
+.hom .ft{display:flex;flex-direction:column;gap:1.6mm;flex:none}.hom img{width:30mm;height:22mm;object-fit:cover;border-radius:2mm}
+.hom .t b{font-size:10.5pt;display:block;margin-bottom:1mm}.hom .t p{font-size:8.6pt;line-height:1.48;color:#3a3220}.hom .t i{display:block;margin-top:1.2mm;font-size:8.6pt;color:#111}
+.cta{margin:5mm 14mm 0;background:#B9252B;color:#fff;border-radius:4mm;padding:4mm 6mm;display:flex;gap:6mm;align-items:center}
+.cta img{width:26mm;height:26mm;background:#fff;border-radius:2mm;padding:1.2mm}.cta h2{color:#F2C230;margin:0 0 1.5mm;font-size:14pt}.cta p{font-size:9.4pt;line-height:1.5}
+.l190{margin:3.5mm 14mm 0;background:#111;color:#fff;border-radius:3mm;padding:2.6mm 5mm;font-size:9pt;display:flex;justify-content:space-between;align-items:center}.l190 b{color:#F2C230;font-size:12pt;letter-spacing:.5px}
+</style></head><body>
+
+<section class="pg">
+<div class="top">
+ <div class="marca"><img src="flyseg-logo.png" alt="FlySeg Vision"><span>Totem · Box · Fisheye</span></div>
+ <div class="hero">
+  <div class="tx">
+   <div class="eb">Olho de Lince · ODL.camera</div>
+   <h1><span class="o">Segurança inteligente</span> e <span class="c">amiga do meio ambiente</span></h1>
+   <p class="sub">Mais que câmeras: o Totem Olho de Lince junta câmeras Full HD, sirene, giroflex e um botão de emergência no app, ligados à plataforma MWL.camera e ao painel das forças de segurança da região.</p>
+   <div class="chamada">Pare de apenas gravar. Comece a proteger!</div>
+  </div>
+  <img src="lince.png" alt="Olho de Lince">
+ </div>
+</div>
+<div class="body">
+ <h2>Três modelos, <b>uma rede</b></h2>
+ <div class="mods">
+  <div class="m"><div class="ang">360°</div><h3>Totem</h3><p>Poste de aço na calçada, com quatro câmeras, sirene, giroflex e LED.</p></div>
+  <div class="m"><div class="ang">180°</div><h3>Box</h3><p>Na fachada do imóvel, com duas câmeras, sirene, giroflex e LED.</p></div>
+  <div class="m fish"><div class="ang">1 lente</div><h3>Fisheye</h3><p>Uma câmera olho de peixe acima do portão. Instalação simples, tomada 127V. Sem sirene e giroflex.</p></div>
+ </div>
+ <h2>O que vem <b>no Totem e no Box</b></h2>
+ <div class="grid">
+  <div class="r"><i>📹</i><div><b>Câmeras Full HD</b><span>Imagens claras e coloridas, inclusive à noite.</span></div></div>
+  <div class="r"><i>🚨</i><div><b>Sirene e giroflex</b><span>Sirene de cerca de 120 dB e luz de alerta integradas.</span></div></div>
+  <div class="r"><i>💾</i><div><b>Gravação de 7 dias</b><span>As imagens ficam guardadas para consultar quando precisar.</span></div></div>
+  <div class="r"><i>💡</i><div><b>Iluminação LED</b><span>Acende sozinha à noite e economiza energia.</span></div></div>
+  <div class="r"><i>🎙️</i><div><b>Áudio do ambiente</b><span>Capta o som da rua e da calçada (também no Fisheye).</span></div></div>
+  <div class="r"><i>🔋</i><div><b>Bateria opcional</b><span>Até 1h20 sem energia. No Fisheye, pela versão com nobreak.</span></div></div>
+ </div>
+ <h2>Na emergência, <b>ajuda imediata</b></h2>
+ <div class="emg">
+  <div class="steps">
+   <div class="st"><b>1</b><span>Pelo app, você aperta o botão de emergência, de onde estiver.</span></div>
+   <div class="st"><b>2</b><span>O Totem ou o Box dispara a sirene e o giroflex na hora.</span></div>
+   <div class="st"><b>3</b><span>O alerta abre uma ocorrência na plataforma MWL.camera.</span></div>
+   <div class="st"><b>4</b><span>As forças cadastradas veem as imagens dos 30 segundos anteriores ao alerta.</span></div>
+  </div>
+  <div class="forca"><b>Painel das forças de segurança</b>Os comandos de área das polícias civil e militar e da guarda municipal se cadastram sem custo e, após aprovação, acompanham as ocorrências da região.</div>
+ </div>
+</div>
+<div class="foot"><span>Olho de Lince (ODL.camera) · FlySeg Vision, uma empresa do Ecossistema FlyGroup</span><span>1/2</span></div>
+</section>
+
+<section class="pg">
+<div class="bar"><h2>Fácil de instalar, <b>seguro de usar</b></h2><img src="lince.png" alt=""></div>
+<div class="body">
+ <div class="grid">
+  <div class="r"><i>🔌</i><div><b>Uma tomada 220V</b><span>Pode vir do quadro: o ODL tem disjuntor próprio. O Fisheye usa tomada comum 127V.</span></div></div>
+  <div class="r"><i>🌐</i><div><b>Um ponto de internet</b><span>De preferência com cabo. Não precisa mexer no roteador.</span></div></div>
+  <div class="r"><i>📶</i><div><b>Sempre conectado</b><span>Se a internet com cabo cair, passa sozinho para o Wi-Fi.</span></div></div>
+  <div class="r"><i>🛡️</i><div><b>Segurança elétrica</b><span>Fiação protegida no poste de aço, em baixa voltagem, que corta a energia se um cabo romper.</span></div></div>
+  <div class="r"><i>🔒</i><div><b>Sua rede protegida</b><span>Imagens com criptografia, sem expor a rede da casa ou da empresa.</span></div></div>
+  <div class="r"><i>🤝</i><div><b>Comodato</b><span>O equipamento fica em comodato com a FlySeg. Você contrata na loja da FlySeg no FlyGroup Marketplace.</span></div></div>
+ </div>
+ <div class="duo">
+  <div class="bx c"><b>📲 Imagens para a comunidade</b><span>Pelo QR Code no poste, qualquer pessoa pode pedir as imagens de um evento, assinando o plano de acesso à plataforma MWL.camera.</span></div>
+  <div class="bx v"><b>♻️ Coletor de pilhas e baterias</b><span>Nos ODL da FlySeg, um coletor em comodato recebe pilhas e baterias, recolhidas nas manutenções e descartadas por empresa licenciada. Um QR Code mostra o coletor mais próximo.</span><small>Exclusivo FlySeg Vision, com pedido de patente de uso conjunto.</small></div>
+ </div>
+ <div class="psp"><b>🏛️ Possibilidade de integração com programas de segurança pública</b><span>Como o Muralha Paulista, do Governo do Estado de São Paulo, o Smart Sampa, da Prefeitura de São Paulo, e programas de outras cidades e estados.</span></div>
+ <div class="hom">
+  <div class="ft"><img src="pai.webp" alt="Marco Antônio Munis Pontes"><img src="fusca.webp" alt="Fusca 77 amarelo Java"></div>
+  <div class="t"><b>Por que Olho de Lince</b><p>Quando percebia alguém mal-intencionado e conseguia impedir antes que algo acontecesse, meu pai, Marco Antônio Munis Pontes, dizia que tinha olho de lince. Este produto é a minha homenagem a ele, e até o amarelo do totem vem do Fusca 77 amarelo Java que ele me deu.</p><i>Seu Filhão, Marcus M. Pontes</i></div>
+ </div>
+</div>
+<div class="cta"><img src="qr-loja.svg" alt="QR Code da loja da FlySeg"><div><h2>Leve o Olho de Lince para a sua rua</h2><p>Aponte a câmera para o código e conheça a loja da FlySeg, ou fale com a gente no WhatsApp <b>(11) 4283-7330</b> · crm@flyseg.vision · <b>olhodelince.com.br</b></p></div></div>
+<div class="l190"><span>Em caso de suspeita ou emergência:</span><b>LIGUE 190</b></div>
+<div class="foot"><span>Olho de Lince (ODL.camera) · FlySeg Vision, uma empresa do Ecossistema FlyGroup · CNPJ 63.459.841/0001-81</span><span>2/2</span></div>
+</section>
+</body></html>
