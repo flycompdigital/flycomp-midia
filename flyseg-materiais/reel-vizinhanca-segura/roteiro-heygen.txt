@@ -11,9 +11,9 @@ TEXTOS NA TELA: VIZINHANÇA SEGURA / Um cinturão digital contra o crime
 VISUAL: Motion graphics verticais com uma malha de pontos e linhas conectando casas e câmeras, simbolizando uma rede de segurança colaborativa. Revelar o título "VIZINHANÇA SEGURA" e, abaixo, o mote "Um cinturão digital contra o crime". Inserir o logo real da FlySeg Vision sem redesenhar.
 
 CENA 2 — O PROGRAMA | 4–9s
-NARRAÇÃO: O Vizinhança Segura conecta câmeras de moradores, comércios e condomínios pela MWL.camera.
-PRONÚNCIA DA NARRAÇÃO: FlySeg deve ser pronunciado como "Flai Ség". MWL.camera deve ser pronunciado como "ême dáblio éle ponto câmera".
-GRAFIA DAS LEGENDAS: O Vizinhança Segura conecta câmeras de moradores, comércios e condomínios pela MWL.camera.
+NARRAÇÃO: O Vizinhança Segura conecta câmeras de moradores, comércios e condomínios pela plataforma MWL.
+PRONÚNCIA DA NARRAÇÃO: MWL deve ser pronunciado como "ême dáblio éle".
+GRAFIA DAS LEGENDAS: O Vizinhança Segura conecta câmeras de moradores, comércios e condomínios pela plataforma MWL.
 TEXTOS NA TELA: Moradores / Comércios / Condomínios / Plataforma MWL.camera
 VISUAL: Apresentador em plano médio, com o rosto livre. Overlay lateral com badges que aparecem em sequência: Moradores, Comércios e Condomínios. Na base do card, exibir "Plataforma MWL.camera".
 
@@ -33,11 +33,10 @@ TEXTOS NA TELA: Raio de 500 m / Ao Vivo / Com Gravação / Possibilidade de inte
 VISUAL: Apresentador em primeiro plano, com overlay de mini-mapa e os destaques "Raio de 500 m", "Ao Vivo" e "Com Gravação". Adicionar um selo separado, visualmente distinto do painel das forças de segurança, com o texto "Possibilidade de integração com Muralha Paulista e Smart Sampa". Não narrar esse selo e não cobrir o rosto do apresentador.
 
 CENA 5 — TOTEM E EVIDÊNCIAS | 19–25s
-NARRAÇÃO: A rua também pode receber o totem ODL.camera e facilitar o acesso a evidências em ocorrências.
-PRONÚNCIA DA NARRAÇÃO: ODL.camera deve ser pronunciado como "ó dê éle ponto câmera".
-GRAFIA DAS LEGENDAS: A rua também pode receber o totem ODL.camera e facilitar o acesso a evidências em ocorrências.
-TEXTOS NA TELA: Totem ODL.camera / Totem e Box / Imagens gravadas
-VISUAL: Usar literalmente a foto real da placa Vizinhança Segura, com contexto discreto de câmera de rua e aproximação suave. Adicionar as etiquetas "Totem ODL.camera", "Totem e Box" e "Imagens gravadas". Não usar "Evidências Gravadas" e não redesenhar a placa.
+NARRAÇÃO: A rua também pode receber o Totem Olho de Lince e facilitar o acesso a evidências em ocorrências.
+GRAFIA DAS LEGENDAS: A rua também pode receber o Totem Olho de Lince e facilitar o acesso a evidências em ocorrências.
+TEXTOS NA TELA: Totem Olho de Lince / Totem e Box / Imagens gravadas
+VISUAL: Usar literalmente a foto real da placa Vizinhança Segura, com contexto discreto de câmera de rua e aproximação suave. Adicionar as etiquetas "Totem Olho de Lince", "Totem e Box" e "Imagens gravadas". Não usar "Evidências Gravadas" e não redesenhar a placa.
 
 CENA 6 — ENCERRAMENTO | 25–31s
 NARRAÇÃO: Leve o Vizinhança Segura para sua rua. Fale com a FlySeg Vision pelo WhatsApp.
@@ -46,9 +45,8 @@ VISUAL: Motion graphic final em layout vertical institucional, com logo real da 
 
 PRONÚNCIAS PARA CONFIGURAR NO GLOSSÁRIO:
 FlySeg = Flai Ség
-MWL.camera = ême dáblio éle ponto câmera
-ODL.camera = ó dê éle ponto câmera
+MWL = ême dáblio éle
 
-IMPORTANTE: Manter nas legendas a grafia correta: FlySeg, MWL.camera e ODL.camera.
+IMPORTANTE: Na fala, usar sempre "plataforma MWL" e "Totem Olho de Lince" (nunca "MWL.camera" nem "ODL.camera"). Manter nas legendas a grafia correta: FlySeg e MWL.
 
 PUBLICAÇÃO NO INSTAGRAM: Ao publicar, ativar manualmente "Rótulo de IA" nas opções avançadas, pois o apresentador é um avatar realista gerado por inteligência artificial.
