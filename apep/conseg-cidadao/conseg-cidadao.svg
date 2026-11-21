@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 140">
+ <g transform="translate(4,6)">
+  <path d="M64 4C30 4 4 26 4 56c0 17 8 31 21 41l-6 27 28-15c5 1 11 2 17 2 34 0 60-22 60-55S98 4 64 4z" fill="#e3a630"/>
+  <path d="M30 62 64 34l34 28" fill="none" stroke="#17212d" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M40 58v24h48V58" fill="none" stroke="#17212d" stroke-width="9" stroke-linejoin="round"/>
+  <circle cx="64" cy="70" r="7" fill="#06543c"/>
+ </g>
+ <text x="148" y="78" font-family="Inter Display" font-weight="900" font-size="72" fill="#fff" letter-spacing="1">CONSEG</text>
+ <text x="150" y="124" font-family="Inter Display" font-weight="700" font-size="40" fill="#e3a630" letter-spacing="10">CIDADÃO</text>
+</svg>

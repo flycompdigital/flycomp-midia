@@ -1,0 +1,54 @@
+ROTEIRO — CONSEG CIDADÃO | APEP BRASIL | 30 SEGUNDOS
+
+Formato: vídeo vertical 9:16
+Duração: aproximadamente 30 segundos
+Idioma: português do Brasil (pt-BR)
+Apresentador: avatar já criado (blazer azul), voz em português do Brasil, tom calmo, próximo e cidadão; sem tom de medo nem de protesto
+Estilo: institucional, limpo, motion graphics nas cores da APEP (azul-marinho #17212d, dourado #e3a630, verde #06543c, fundo claro #f7f4ec)
+
+ASSETS ANEXADOS (usar exatamente estes arquivos, sem redesenhar):
+- conseg-cidadao-logo.png: logo do CONSEG Cidadão (texto branco: usar sobre fundo escuro).
+- apep-logo.png: logo da APEP Brasil (texto branco: usar sobre fundo escuro).
+- qrcode-conseg.png: QR code que abre con.seg.br. Mostrar inteiro, reto, com a borda branca, grande e parado por pelo menos 3 segundos. Não recortar, distorcer nem animar.
+
+GLOSSÁRIO DE PRONÚNCIA (Brand Glossary):
+CONSEG = Consségue
+APEP = A-pépi
+con.seg.br = con ponto seg ponto bê érre
+
+CENA 1 — ABERTURA | 0–5s
+NARRAÇÃO: Poste apagado, árvore cobrindo a luz, carro abandonado. A sua rua sabe o que precisa.
+TEXTOS NA TELA: 💡 Poste apagado / 🌳 Árvore cobrindo a luz / 🚗 Veículo abandonado
+VISUAL: Motion graphics simples, ícones aparecendo um a um sobre fundo azul-marinho. Sem fotos de pessoas, casas ou placas reais.
+
+CENA 2 — O CONSEG | 5–11s
+NARRAÇÃO: Todo mês, a comunidade e as polícias se reúnem no CONSEG da sua região. E quem chega com a pauta organizada é ouvido com mais força.
+TEXTOS NA TELA: CONSEG: comunidade e polícias, todo mês
+VISUAL: Apresentador em plano médio, com o rosto livre. Overlay discreto com o texto. Sem fardas, viaturas ou brasões.
+
+CENA 3 — COMO FUNCIONA | 11–20s
+NARRAÇÃO: O CONSEG Cidadão ajuda a sua rua a se organizar com um tutor, registrar as demandas e levar a pauta à reunião.
+TEXTOS NA TELA:
+1. Organize a rua
+2. Registre as demandas
+3. Leve ao CONSEG
+VISUAL: Três passos em cartões com borda dourada, acendendo conforme a fala. Logo do CONSEG Cidadão no topo.
+
+CENA 4 — QUEM MANTÉM | 20–25s
+NARRAÇÃO: Uma iniciativa da APEP Brasil: apartidária e sem verba pública. O povo pelo povo.
+TEXTOS NA TELA: Apartidária · 0% de verba pública
+VISUAL: Logo da APEP Brasil sobre fundo azul-marinho.
+
+CENA 5 — CONVITE | 25–30s
+NARRAÇÃO: Leve o CONSEG Cidadão para a sua rua. Acesse con ponto seg ponto bê érre.
+TEXTOS NA TELA: con.seg.br / Escaneie para conhecer
+VISUAL: Logo do CONSEG Cidadão, QR code literal e "con.seg.br" em destaque.
+RODAPÉ FIXO NESTA CENA (texto pequeno): Iniciativa da sociedade civil. Não é canal oficial do Governo nem dos CONSEGs. Em emergência, ligue 190.
+
+O QUE NÃO DIZER NEM MOSTRAR:
+- Que é um serviço oficial do Governo, da Polícia ou dos CONSEGs.
+- Partidos, políticos ou críticas a governos.
+- "Monitoramento" ou promessa de segurança.
+- Fardas, viaturas, brasões ou pessoas reais.
+
+PUBLICAÇÃO NO INSTAGRAM: ativar "Rótulo de IA" nas opções avançadas, pois o apresentador é um avatar realista gerado por IA.
