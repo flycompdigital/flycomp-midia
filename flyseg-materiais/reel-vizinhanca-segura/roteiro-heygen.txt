@@ -5,6 +5,12 @@ Duração: aproximadamente 31 segundos
 Idioma: português do Brasil (pt-BR)
 Estilo: minimalista, limpo, institucional, com motion graphics, A-roll do apresentador e B-roll com os assets reais do folder.
 
+ASSETS ANEXADOS (usar exatamente estes arquivos, sem redesenhar):
+- flyseg-logo-transparente.png: logo da FlySeg Vision, fundo transparente. Garantir bom contraste: a palavra "VISION" é fina e cinza; em fundo muito escuro ou com textura, colocar o logo sobre um cartão claro ou com sombra suave.
+- qrcode-vizinhanca-segura.png: QR code do folder (abre o Instagram @flysegvision). Mostrar inteiro, reto, com a borda branca ao redor, em tamanho grande e parado por pelo menos 3 segundos. Não recortar, não distorcer, não aplicar filtro, desfoque, transparência ou animação sobre ele.
+- placa-vizinhanca-segura.jpg: foto real da placa. Não redesenhar nem alterar textos; pode aplicar aproximação suave.
+- mwl-logo-transparente.png: logo da plataforma MWL, fundo transparente. Usar na cena 2, junto do selo "Plataforma MWL".
+
 CENA 1 — ABERTURA | 0–4s
 NARRAÇÃO: Um cinturão digital contra o crime, na sua rua.
 TEXTOS NA TELA: VIZINHANÇA SEGURA / Um cinturão digital contra o crime
