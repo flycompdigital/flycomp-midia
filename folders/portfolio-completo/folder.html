@@ -9,7 +9,7 @@ h1,h2,h3{font-family:'Inter Display',Inter,Arial,sans-serif}
 .p1 .top{background:radial-gradient(120% 140% at 100% 0%,#0F2A44 0%,#070B14 60%);color:#F2F5FA;padding:8mm 14mm 6.5mm}
 .logos{display:flex;justify-content:space-between;align-items:center;margin-bottom:5mm}
 .logos .eco{font-size:8.5pt;font-weight:800;letter-spacing:1.6px;text-transform:uppercase;color:#38BDF8}
-.logos .par{display:flex;align-items:center;gap:5mm}.logos .fc{height:10.5mm}.logos .fs{height:12mm;background:#fff;border-radius:2mm;padding:1mm 2mm;box-sizing:content-box}
+.logos .fg{height:15mm}
 .p1 h1{font-weight:800;font-size:22pt;line-height:1.08;letter-spacing:-.3px}.p1 h1 span{color:#38BDF8}
 .p1 .sub{margin-top:3mm;font-size:10pt;color:#A9B4C6;line-height:1.45}
 .quem{display:flex;gap:4mm;margin-top:4.5mm}
@@ -31,7 +31,14 @@ h1,h2,h3{font-family:'Inter Display',Inter,Arial,sans-serif}
 .bl.esc .pr{background:#16324F;color:#7DD3FC}
 .full{grid-column:span 2}
 .cred{margin-top:3mm;font-size:8.6pt;line-height:1.48;color:#33404F}.cred b{color:#0B1220}
-.gratis{margin-top:4mm}.gratis h3{font-size:11.5pt;font-weight:800;margin-bottom:2.4mm}.gratis h3 span{color:#0B6FB8}
+.fv{margin-top:3.5mm;font-size:8.8pt;color:#A9B4C6}.fv b{color:#38BDF8}
+.emp .lg{height:12mm}.emp-d{font-size:8.8pt;color:#4A5568;margin-left:1mm}
+.creds{margin-top:3.5mm;background:#fff;border:1px solid #DCE3EC;border-radius:3.5mm;padding:3.4mm 4mm}
+.creds h3{font-size:10.5pt;font-weight:800;margin-bottom:2mm}.creds h3 span{color:#0B6FB8}
+.cr{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm}.cr div{border-left:1mm solid #FFB020;padding-left:2.6mm}
+.cr b{display:block;font-size:9.4pt}.cr span{font-size:8pt;color:#4A5568;line-height:1.35}.creds p{font-size:8.2pt;color:#4A5568;margin-top:2mm}
+.cta.seg{background:#111;border-top:1.5mm solid #F2C230}.cta.seg h2 span{color:#F2C230}
+.gratis{margin-top:3.5mm}.gratis h3{font-size:11.5pt;font-weight:800;margin-bottom:2.4mm}.gratis h3 span{color:#0B6FB8}
 .gr{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm}
 .g{background:#fff;border:1px solid #DCE3EC;border-left:1.2mm solid #38BDF8;border-radius:3mm;padding:3mm 3.6mm}
 .g b{display:block;font-size:9.6pt;margin-bottom:.8mm}.g span{font-size:8.2pt;color:#4A5568;line-height:1.36;display:block}.g em{font-style:normal;font-weight:800;font-size:8.2pt;color:#0B6FB8;display:block;margin-top:1.2mm}
@@ -63,21 +70,25 @@ h1,h2,h3{font-family:'Inter Display',Inter,Arial,sans-serif}
 .cta .qr img{width:23mm;height:23mm;background:#fff;border-radius:2mm;padding:1mm;display:block;margin-bottom:1mm}
 .cta .tx{flex:1}.cta h2{font-size:13.5pt;font-weight:800;margin-bottom:1.6mm}.cta h2 span{color:#FFB020}
 .cta p{font-size:8.8pt;color:#A9B4C6;line-height:1.45}.cta p b{color:#F2F5FA}
+.p1 .top{padding:6.5mm 14mm 5mm}.p1 .logos{margin-bottom:3mm}.p1 .logos .fg{height:13mm}.p1 h1{font-size:19pt}.p1 .sub{font-size:9.2pt;margin-top:2.2mm}.fv{margin-top:2.2mm}
+.p1 .corpo{padding-top:3.5mm}.p1 .emp{margin-bottom:2.2mm}.emp .lg{height:10mm}
+.p1 .grade{gap:2.6mm}.p1 .bl{padding:2.8mm 3.6mm}.p1 .bl h3{margin-bottom:1.2mm;font-size:10pt}.p1 .bl li{font-size:8.1pt;margin-bottom:.8mm;line-height:1.34}
+.creds{margin-top:2.8mm;padding:2.6mm 3.6mm}.creds h3{margin-bottom:1.4mm}.cr span{font-size:7.8pt}.creds p{margin-top:1.4mm;font-size:7.9pt}
+.gratis{margin-top:2.8mm}.gratis h3{margin-bottom:1.8mm;font-size:10.5pt}.g{padding:2.4mm 3.2mm}.g span{font-size:7.8pt}.g em{margin-top:.8mm}
+.p1 .cta{margin-top:3mm;padding:3mm 5mm}.p1 .cta .qr img{width:20mm;height:20mm}
+.p1 .rod{padding:2mm 14mm 4mm}
 </style></head><body>
 
 <!-- ===================== PÁGINA 1 · FLYCOMP DIGITAL ===================== -->
 <section class="pg p1">
  <div class="top">
-  <div class="logos"><span class="eco">Ecossistema FlyGroup</span><div class="par"><img class="fc" src="flycomp-negativo.png"><img class="fs" src="flyseg.png"></div></div>
+  <div class="logos"><span class="eco">Ecossistema FlyGroup</span><img class="fg" src="flygroup.png" alt="FlyGroup"></div>
   <h1>Tecnologia e segurança para a sua empresa<br><span>e para a sua rua.</span></h1>
   <p class="sub">Duas empresas que se completam: a FlyComp Digital cuida de software, infraestrutura e cibersegurança; a FlySeg Vision cuida da segurança eletrônica e das câmeras da sua rua.</p>
-  <div class="quem">
-   <div><b>FlyComp Digital</b><span>Software, inteligência artificial, infraestrutura de TI e cibersegurança.</span></div>
-   <div class="fsg"><b>FlySeg Vision</b><span>Câmeras, instalação, ODL.camera e o Programa Vizinhança Segura.</span></div>
-  </div>
+  <p class="fv"><b>Frente:</b> FlyComp Digital · <b>Verso:</b> FlySeg Vision</p>
  </div>
  <div class="corpo">
-  <div class="emp"><h2>FlyComp Digital</h2><span class="tag">Tecnologia</span></div>
+  <div class="emp"><img class="lg" src="flycomp.png" alt="FlyComp Digital"><span class="tag">Tecnologia</span><span class="emp-d">Software, inteligência artificial, infraestrutura de TI e cibersegurança.</span></div>
   <div class="grade">
    <div class="bl"><h3>Software e inteligência artificial</h3><ul>
     <li><b>Software sob medida:</b> plataformas web, aplicativos e sistemas SaaS para o desafio da sua empresa.</li>
@@ -91,20 +102,25 @@ h1,h2,h3{font-family:'Inter Display',Inter,Arial,sans-serif}
     <li><b>Raio-X da TI:</b> avaliação online da sua infraestrutura, com o pacote indicado. <span class="pr">Grátis</span></li></ul></div>
    <div class="bl esc"><h3><img src="vision-branco.png"> Linha Vision de cibersegurança</h3><ul>
     <li><b>Vision XDR by Vigilant:</b> proteção e resposta a ameaças 24 horas em todas as máquinas, com teste gratuito. <span class="pr">A partir de R$ 99 por máquina/mês</span></li>
-    <li><b>Vision XDR + MDR:</b> analista dedicado que corrige o incidente ou indica a correção, com primeira resposta em até 1 hora.</li>
+    <li><b>Vision XDR + MDR:</b> analista dedicado que corrige o incidente ou indica a correção, com primeira resposta em até 1 hora. <span class="pr">R$ 159 por máquina/mês</span></li>
     <li><b>Vision MDR:</b> consultoria de cibersegurança, da avaliação de maturidade ao plano de ação e ao teste de invasão. <span class="pr">Avaliação grátis</span></li></ul></div>
    <div class="bl"><h3>Plataformas próprias</h3><ul>
     <li><b>MWL.camera:</b> sistema white label de segurança privada colaborativa. Vizinhos compartilham câmeras num raio de 500 m, ao vivo e gravadas, com possibilidade de integração com o Muralha Paulista e o Smart Sampa.</li>
     <li><b>FlyGroup Marketplace:</b> marketplace com várias lojas, produtos físicos e digitais, e o Agente Bip IA no atendimento.</li></ul></div>
   </div>
-  <p class="cred"><b>Quem entrega:</b> os FlyCompers, profissionais certificados que já entregaram a Muralha Paulista, o Disque Denúncia 181 e a cibersegurança da Polícia Militar de SP, por 2 anos o maior case da Cisco Brasil no uso do IronPort.</p>
+  <div class="creds"><h3>Quem entrega: <span>os FlyCompers</span></h3><div class="cr">
+   <div><b>Muralha Paulista</b><span>Programa de monitoramento da Secretaria da Segurança Pública de SP.</span></div>
+   <div><b>Disque Denúncia 181</b><span>Central do Centro Integrado de Comando e Controle (CICC).</span></div>
+   <div><b>Polícia Militar de SP</b><span>Cibersegurança com filtragem de conteúdo: por 2 anos o maior case da Cisco Brasil no IronPort.</span></div>
+  </div><p>Profissionais certificados que apoiaram e inovaram a TI da Secretaria da Segurança Pública de SP de 2023 a 2025.</p></div>
   <div class="gratis"><h3>Comece <span>sem custo</span></h3><div class="gr">
    <div class="g"><b>Raio-X da TI</b><span>Nota da sua infraestrutura e o pacote indicado, em cerca de 8 minutos.</span><em>flycomp.digital/raio-x</em></div>
    <div class="g"><b>Avaliação de cibersegurança</b><span>Maturidade da empresa alinhada ao NIST e aos Controles CIS, com relatório em PDF.</span><em>mdr.vision</em></div>
    <div class="g"><b>Teste do Vision XDR</b><span>Proteção 24 horas em até 20 máquinas por cerca de 15 dias, sem compromisso.</span><em>xdr.vision</em></div>
   </div></div>
  </div>
- <div class="rod"><span>FlyComp Digital · uma empresa do Ecossistema FlyGroup · flycomp.digital</span><span>Vire a página: FlySeg Vision →</span></div>
+ <div class="cta"><div class="qr"><img src="qr-flycomp.svg">flycomp.digital</div><div class="tx"><h2>Fale com a FlyComp <span>e escolha por onde começar.</span></h2><p>Aponte a câmera para o código ou chame no WhatsApp <b>(11) 4283-7330</b>.</p></div></div>
+ <div class="rod"><span>FlyComp Digital · uma empresa do Ecossistema FlyGroup · Vision XDR by Vigilant é parceria da FlyComp com a Vigilant.</span><span>Vire a página: FlySeg Vision →</span></div>
 </section>
 
 <!-- ===================== PÁGINA 2 · FLYSEG VISION ===================== -->
@@ -135,11 +151,7 @@ h1,h2,h3{font-family:'Inter Display',Inter,Arial,sans-serif}
    <div class="j"><h3><img src="mwl.png"> MWL + ODL: juntos</h3><p>O MWL.camera, da FlyComp, é o sistema; o ODL.camera, da FlySeg, é o equipamento. Os dois são white label, para integradores de segurança oferecerem com a própria marca.</p></div>
   </div>
  </div>
- <div class="cta">
-  <div class="qr"><img src="qr-flycomp.svg">flycomp.digital</div>
-  <div class="qr"><img src="qr-flyseg.svg">flyseg.vision</div>
-  <div class="tx"><h2>Fale com a gente <span>e escolha por onde começar.</span></h2><p>Aponte a câmera para o código da empresa ou chame no WhatsApp <b>(11) 4283-7330</b>. Rua Itinguçu, 579, Vila Ré, São Paulo-SP.</p></div>
- </div>
- <div class="rod"><span>FlyComp Digital e FlySeg Vision · empresas do Ecossistema FlyGroup</span><span>Vision XDR by Vigilant é parceria da FlyComp com a Vigilant.</span></div>
+ <div class="cta seg"><div class="qr"><img src="qr-flyseg.svg">flyseg.vision</div><div class="tx"><h2>Fale com a FlySeg <span>e proteja a sua rua.</span></h2><p>Aponte a câmera para o código ou chame no WhatsApp <b>(11) 4283-7330</b>.</p></div></div>
+ <div class="rod"><span>FlySeg Vision · uma empresa do Ecossistema FlyGroup · flyseg.vision</span><span></span></div>
 </section>
 </body></html>
