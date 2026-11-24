@@ -51,7 +51,7 @@ POSTS = [
   "cta_sub": "A FlySeg instala, integra e faz a manutenção das câmeras do seu condomínio.",
  },
  {
-  "pasta": "2026-12-01-comercio-imagens",
+  "pasta": "2026-11-30-comercio-imagens",
   "fonte": "CNN Brasil",
   "eyebrow": "Comércio em SP",
   "titulo": "Imagem boa <y>ajuda a polícia.</y>",

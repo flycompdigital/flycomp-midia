@@ -1,4 +1,4 @@
-# Legendas: 2026-12-01-comercio-imagens
+# Legendas: 2026-11-30-comercio-imagens
 
 ## Instagram
 
