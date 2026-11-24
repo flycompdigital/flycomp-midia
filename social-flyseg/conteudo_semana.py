@@ -1,0 +1,78 @@
+# Conteúdo dos posts da semana (FlySeg Vision). Lido por gerar_semana.py.
+# Cada post: pasta, fonte, slides do carrossel, resumo, story e telas do reel.
+
+POSTS = [
+ {
+  "pasta": "2026-11-25-falsa-equipe-cabos",
+  "fonte": "Metrópoles e Minha Operadora",
+  "eyebrow": "Furto de cabos em SP",
+  "titulo": "Uniforme não é <y>crachá.</y>",
+  "sub": "Grupos vestidos de equipe de concessionária fecham a rua, abrem bueiros e levam os cabos.",
+  "fato_titulo": "O que aconteceu",
+  "fato": "A polícia prendeu em flagrante um suspeito de um grupo que usava uniforme, capacete e carro com a identidade visual da Enel para furtar cabos de cobre e fibra em SP. Na zona sul, outro grupo com uniforme parecido com o da Vivo cortou cabos de madrugada.",
+  "risco": "Falsas equipes de concessionária furtam cabos e deixam a rua sem luz, telefone e internet.",
+  "passos_titulo": "Viu uma equipe na rua?",
+  "passos": [
+    "Sem identificação? Ligue para a concessionária e confirme.",
+    "Não se aproxime nem confronte. Observe de longe.",
+    "Suspeitou? Ligue 190 e passe horário e veículo.",
+  ],
+  "flyseg": [
+    "Câmeras Full HD que filmam <y>colorido à noite</y>, apontadas para a rua.",
+    "<y>ODL.camera Totem</y>: 4 câmeras, visão 360°, sirene e giroflex.",
+    "<y>MWL.camera</y>: vizinhos compartilham câmeras num raio de 500 m, ao vivo e gravadas.",
+  ],
+  "flyseg_curto": ["Câmeras coloridas à noite na rua", "ODL.camera Totem com sirene e giroflex", "Câmeras da rua compartilhadas no MWL.camera"],
+  "cta_titulo": "A rua inteira <y>de olho.</y>",
+  "cta_sub": "Reúna os vizinhos, chame a FlySeg e conecte a sua rua ao Programa Vizinhança Segura.",
+ },
+ {
+  "pasta": "2026-11-27-chave-reserva-condominio",
+  "fonte": "Condomínio Interativo e Metrópoles",
+  "eyebrow": "Condomínios em SP",
+  "titulo": "Esconderijo de chave <y>não é segredo.</y>",
+  "sub": "Capacho, vaso e caixa de luz são os primeiros lugares que um invasor procura.",
+  "fato_titulo": "O que aconteceu",
+  "fato": "Na noite de 20 de novembro, no Campo Belo, zona sul de SP, dois homens passaram pelo reconhecimento facial de um prédio, acharam uma chave reserva debaixo do capacho e entraram num apartamento. A polícia investiga como o acesso foi liberado.",
+  "risco": "Invasores passam pelo controle de acesso e procuram chaves escondidas na porta.",
+  "passos_titulo": "No seu prédio",
+  "passos": [
+    "Não deixe chave reserva no capacho, no vaso ou na caixa de luz.",
+    "Síndico: revise os cadastros e retire quem já saiu.",
+    "Confira as tentativas de acesso negadas e as imagens das entradas.",
+  ],
+  "flyseg": [
+    "Câmeras Full HD e gravadores na portaria, nos corredores e na garagem.",
+    "<y>ODL.camera Eye</y>: câmera olho de peixe no alto do portão, com áudio.",
+    "<y>7 dias de gravação</y> e nobreak opcional para não apagar na falta de luz.",
+  ],
+  "flyseg_curto": ["Câmeras na portaria, corredores e garagem", "ODL.camera Eye no alto do portão, com áudio", "7 dias de gravação e nobreak opcional"],
+  "cta_titulo": "Entrada vista, <y>entrada registrada.</y>",
+  "cta_sub": "A FlySeg instala, integra e faz a manutenção das câmeras do seu condomínio.",
+ },
+ {
+  "pasta": "2026-12-01-comercio-imagens",
+  "fonte": "CNN Brasil",
+  "eyebrow": "Comércio em SP",
+  "titulo": "Imagem boa <y>ajuda a polícia.</y>",
+  "sub": "Depois de um roubo, um dos primeiros pedidos da investigação são as imagens das câmeras.",
+  "fato_titulo": "O que aconteceu",
+  "fato": "No sábado, 21 de novembro, um homem armado rendeu funcionários de uma joalheria num shopping da zona sul de SP. A polícia pediu as imagens das câmeras da loja e achou o carro da fuga abandonado: era roubado e tinha placa adulterada.",
+  "risco": "Num roubo, a câmera que grava mal ou está desligada deixa a investigação sem imagem.",
+  "passos_titulo": "No seu comércio",
+  "passos": [
+    "Câmeras na entrada, no caixa e na calçada.",
+    "Imagem nítida de dia e de noite, com gravação guardada.",
+    "Saiba exportar as imagens rápido para a polícia.",
+  ],
+  "flyseg": [
+    "Venda, instalação, <y>locação</y> e manutenção de câmeras e gravadores.",
+    "<y>ODL.camera Box</y> na fachada: 2 câmeras, sirene e giroflex.",
+    "<y>MWL.camera</y>: comércios vizinhos compartilham câmeras num raio de 500 m.",
+  ],
+  "flyseg_curto": ["Câmeras e gravadores: venda ou locação", "ODL.camera Box na fachada", "Câmeras compartilhadas no MWL.camera"],
+  "extra": "Possibilidade de integração com o Muralha Paulista e o Smart Sampa.",
+  "cta_titulo": "Sua loja <y>bem registrada.</y>",
+  "cta_sub": "Câmeras novas ou as que você já tem, integradas ao MWL.camera pela FlySeg.",
+ },
+]
