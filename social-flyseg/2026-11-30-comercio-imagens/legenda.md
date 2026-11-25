@@ -80,3 +80,16 @@ Fale com a gente pelo WhatsApp (11) 4283-7330 ou em flyseg.vision
 Fonte: CNN Brasil
 
 #FlySegVision #Comercio #CamerasDeSeguranca #SegurancaPatrimonial #SaoPaulo
+
+### LinkedIn (documento PDF)
+
+Título do documento: Imagem boa ajuda a polícia.
+Arquivo: carrossel.pdf (subir manualmente no dia útil seguinte ao resumo, entre 12h e 16h)
+
+Guia rápido em 5 páginas para o comércio: onde posicionar as câmeras, como guardar a gravação e por que exportar as imagens rápido faz diferença quando a polícia pede. Salve e compartilhe com quem cuida da sua loja.
+
+Fale com a gente pelo WhatsApp (11) 4283-7330 ou em flyseg.vision
+
+Fonte: CNN Brasil
+
+#FlySegVision #Comercio #CamerasDeSeguranca #Varejo #SaoPaulo

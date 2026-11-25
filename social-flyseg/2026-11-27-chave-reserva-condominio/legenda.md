@@ -80,3 +80,16 @@ Fale com a gente pelo WhatsApp (11) 4283-7330 ou em flyseg.vision
 Fonte: Condomínio Interativo e Metrópoles
 
 #FlySegVision #Condominio #Sindico #SegurancaPatrimonial #SaoPaulo
+
+### LinkedIn (documento PDF)
+
+Título do documento: Esconderijo de chave não é segredo.
+Arquivo: carrossel.pdf (subir manualmente no dia útil seguinte ao resumo, entre 12h e 16h)
+
+Guia rápido em 5 páginas para síndicos e moradores: o que um caso recente no Campo Belo ensina sobre chave reserva e controle de acesso no condomínio. Salve e compartilhe com o conselho do seu prédio.
+
+Fale com a gente pelo WhatsApp (11) 4283-7330 ou em flyseg.vision
+
+Fonte: Condomínio Interativo e Metrópoles
+
+#FlySegVision #Condominio #Sindico #ControleDeAcesso #SaoPaulo
