@@ -8,6 +8,8 @@ I={
 "handshake":'<path d="m11 17 2 2a1 1 0 1 0 3-3"/><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"/><path d="m21 3 1 11h-2"/><path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"/><path d="M3 4h8"/>',
 "shield":'<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/>',
 "chat":'<path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>',
+"lightbulb":'<path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/>',
+"calendar":'<path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/><path d="m9 16 2 2 4-4"/>',
 }
 def svg(k,size,color): return f'<svg width="{size}" height="{size}" viewBox="0 0 24 24" fill="none" stroke="{color}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">{I[k]}</svg>'
 D=[
@@ -30,6 +32,8 @@ ul{list-style:none;display:flex;flex-direction:column;gap:24px}
 li{font-size:40px;line-height:1.3;padding:26px 32px;background:rgba(233,194,96,.07);border:2px solid rgba(233,194,96,.35);border-left:10px solid #e31c24;border-radius:22px;color:#eef1f4}
 .cta{margin-top:auto;padding-top:40px;font-size:40px;font-weight:700;color:#e9c260}
 </style></head><body><div class="bar"></div><div class="w"><img class="logo" src="{LOGO}"><div class="ic">{ICON}</div><h1>{T}</h1><p>{P}</p><ul>{LI}</ul><div class="cta">{CTA}</div></div></body></html>"""
+# Destaques que só têm capa (os stories são publicados pelo Marcus)
+SO_CAPA=[("dicas","lightbulb"),("eventos","calendar")]
 async def main():
     async with async_playwright() as p:
         b=await p.chromium.launch(executable_path="/usr/bin/google-chrome"); pg=await b.new_page(viewport={"width":1080,"height":1920})
@@ -39,5 +43,9 @@ async def main():
                 f=B/f"{kind}-{slug}.html"; f.write_text(h,encoding="utf-8")
                 await pg.goto("file://"+str(f)); await pg.evaluate("document.fonts.ready"); await pg.wait_for_timeout(120)
                 await pg.screenshot(path=str(B/f"{kind}-{slug}.jpg"),type="jpeg",quality=92)
+        for slug,ic in SO_CAPA:
+            f=B/f"capa-{slug}.html"; f.write_text(CAPA.replace("{ICON}",svg(ic,380,"#e9c260")),encoding="utf-8")
+            await pg.goto("file://"+str(f)); await pg.wait_for_timeout(120)
+            await pg.screenshot(path=str(B/f"capa-{slug}.jpg"),type="jpeg",quality=92)
         await b.close()
 asyncio.run(main())
